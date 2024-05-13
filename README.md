@@ -1,6 +1,5 @@
 # Iterative Filter Pruning for Concatenation-Based CNN Architectures
-Repository of the paper **Iterative Filter Pruning for Concatenation-based
-CNN Architectures** at [IJCNN 2024](https://2024.ieeewcci.org/). 
+Repository of the paper [**Iterative Filter Pruning for Concatenation-based CNN Architectures**](https://arxiv.org/abs/2405.03715) at IJCNN 2024. 
 
  We propose a method to handle concatenation layers, based on the connectivity graph of convolutional layers. By automating iterative sensitivity analysis, pruning, and subsequent model fine-tuning, we can significantly reduce model size both in terms of the number of parameters and FLOPs, while keeping comparable model accuracy. Finally, we deploy pruned models to FPGA and NVIDIA Jetson Xavier AGX.  Pruned models demonstrate a 2x speedup for the convolutional layers in comparison to the unpruned counterparts and reach real-time capability with 14 FPS on FPGA.
 
